@@ -52,8 +52,8 @@
         <div class="library">
             <img src="2-94.png" alt="" class="library_photo">
         </div>
-        <div class="library_button" id="button1">用户登录</div>
-        <div class="library_button" id="button2">管理员登录</div>
+        <div class="library_button" id="button1" style="cursor:pointer">用户登录</div>
+        <div class="library_button" id="button2" style="cursor:pointer">管理员登录</div>
     </div>
     <script>
         document.getElementById("button1").addEventListener("click",()=>{
@@ -62,6 +62,12 @@
         document.getElementById("button2").addEventListener("click",()=>{
             location.href="book2.html";
         });
+        document.addEventListener("mousewheel", function (e) {
+            e = e || window.event;
+            if ((e.wheelDelta && event.ctrlKey) || e.detail) {
+            event.preventDefault();
+            }
+        }, {passive: false});  
     </script>
 </body>
 </html>
