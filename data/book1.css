@@ -177,7 +177,7 @@ letter-spacing: -1.5px;
     
 }
 .xitong{
-    height:200px ;
+    height:150px ;
     width: 600px;
     /* background-color: red; */
     display: flex;
@@ -207,6 +207,10 @@ letter-spacing: -1.5px;
     width: 100px ;
     padding-top: 40px;
     /* background-color: green; */
+}
+.xitong_2{
+    padding-left: 50px;
+    font-size: 20px;
 }
 .zhuce{
     width: 600px;
@@ -276,7 +280,7 @@ border: 8px solid #DCB084;
     width: 800px;
     height: 600px;
     margin-left: 30px;
-    background-color: red;
+    /* background-color: red; */
 }
 .mid_mid_mid_1{
     display: flex;
@@ -298,21 +302,23 @@ border: 8px solid #DCB084;
     height:140px ;
     /* background-color: yellow; */
 }
+.mid_mid_mid_2_photo_1{
+    border-radius: 10px;
+}
 .mid_mid_mid_2_word{
     width: 130px;
     height:25px ;
-    /* background-color: white; */
+    /* background-color: green; */
     color: #444444;
     font-family: Inter;
     font-weight: regular;
-    font-size: 20px;
+    font-size: 15px;
     line-height: normal;
     letter-spacing: -1.5px;
-
 }
 /* 用来填充“图书”中的书名 */
 .mid_mid_mid_2_word_1{
-
+    
 }
 /* 用来填充“图书”中的作者 */
 .mid_mid_mid_2_word_2{
