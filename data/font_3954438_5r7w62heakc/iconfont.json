@@ -1,0 +1,16 @@
+{
+  "id": "3954438",
+  "name": "图书管理系统",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9087513",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    }
+  ]
+}
